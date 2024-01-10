@@ -10,7 +10,7 @@ jobs:
     steps:
        - add_ssh_keys:
           fingerprints:
-            - "de:ea:3f:c2:a1:c3:9b:4d:04:f0:03:d1:ef:b4:e9:12"
+            - "2b:30:8e:25:94:58:02:7f:34:07:96:23:a8:5e:4e:ab"
        - run: ssh -p  5999  -o StrictHostKeyChecking=no -v test@125.212.250.1 './deloy_linh.sh'
 workflows:
   commit:
