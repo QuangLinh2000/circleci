@@ -12,8 +12,6 @@ jobs:
           fingerprints:
             - "de:ea:3f:c2:a1:c3:9b:4d:04:f0:03:d1:ef:b4:e9:12"
        - run: ssh -o StrictHostKeyChecking=no -v test@192.168.105.199 './deloy_linh.sh'
-
-zz
 workflows:
   commit:
     jobs:
